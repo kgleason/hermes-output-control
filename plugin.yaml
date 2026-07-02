@@ -1,0 +1,5 @@
+name: output-control
+version: 0.1.0
+description: "Suppress selected noisy Hermes CLI status lines while keeping useful terminal command progress."
+author: Kirk + Hermes
+kind: standalone
