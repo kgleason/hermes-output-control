@@ -1,5 +1,5 @@
 name: output-control
-version: 0.1.0
-description: "Suppress selected noisy Hermes CLI status lines while keeping useful terminal command progress."
+version: 0.2.0
+description: "Configurable Hermes CLI output filter with dashboard controls. Toggle known noisy progress/context messages while keeping useful terminal command summaries."
 author: Kirk + Hermes
 kind: standalone

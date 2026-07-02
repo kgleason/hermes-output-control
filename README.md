@@ -1,11 +1,12 @@
 # hermes-output-control
 
-Tiny Hermes plugin that suppresses noisy CLI progress lines while keeping useful terminal command summaries.
+Configurable Hermes plugin that suppresses selected CLI progress/context messages while keeping useful terminal command summaries.
 
-Suppresses:
+Defaults to suppress:
 
 - `┊ ⚡ preparing ...`
 - `🔧 Auto-repaired tool name ...`
+- accidental `PONYTAIL MODE ACTIVE ...` context dumps
 
 Keeps:
 
@@ -19,3 +20,11 @@ hermes plugins enable output-control
 ```
 
 Restart Hermes sessions/gateways after enabling.
+
+## Dashboard
+
+Open `hermes dashboard` and use the `Output Control` tab to toggle known rules.
+
+Enabled = display the message. Disabled = suppress it.
+
+Changes are saved to `~/.hermes/plugins/output-control/rules.local.json`.
